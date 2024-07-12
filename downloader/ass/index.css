@@ -1,0 +1,60 @@
+#url-error{
+    display: none;
+}
+#url{
+    width: 70%;
+}
+.cards {
+    white-space: nowrap;
+}
+
+.poster {
+    display: flex;
+}
+
+.card {
+    flex: 0 0 auto;
+    margin-right: 20px;
+    /* Adjust spacing between posters */
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.content {
+    min-height: calc(100vh - 50px); /* Adjust 50px to the height of your footer */
+    padding-bottom: 50px; /* Adjust to the height of your footer */
+}
+
+.footer {
+    height: 50px; /* Adjust to your footer height */
+    position: relative;
+    margin-top: -50px; /* Same value as footer height */
+    clear: both;
+    background-color: #f1f1f1; /* Background color for the footer */
+    text-align: center; /* Center align text */
+}
+
+#copy{
+    text-decoration: none;
+    color: rgb(4, 255, 0);
+}
+#btn{
+    width: 50%;
+    height: auto;
+    position: relative;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+}
+
+#downs{
+    display: none;
+    width: 60%;
+}
